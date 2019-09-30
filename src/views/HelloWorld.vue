@@ -1,21 +1,22 @@
 <template>
-  <div>
-    <el-time-select v-model="value"
-                  :picker-options="{
-                    start: '08:30',
-                    step: '00:15',
-                    end: '18:30'
-                  }"
-                  placeholder="选择时间"></el-time-select>
-    <div class="a">
-    <div>a</div>
-    </div>
-  </div>
+  <el-container>
+    <el-aside width="200px">
+      <rightTabs />
+    </el-aside>
+    <el-container>
+      <el-header>我爱我的祖国</el-header>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
+    </el-container>
+  </el-container>
 </template>
 
 <script>
+import rightTabs from '@/components/right-tabs.vue'
 export default {
   name: 'HelloWorld',
+  components: {rightTabs},
   data () {
     return {
       value: ''
@@ -25,14 +26,31 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.a {
-  width: 50px;
-  height: 50px;
-  background: #333;
-  div {
-    width: 20px;
-    height: 20px;
-    background: #fff;
-  }
+.el-container {
+  width: 100%;
+  height: 100%;
 }
+  .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+  }
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    height: 100%;
+  }
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+  }
+  body > .el-container {
+    margin-bottom: 40px;
+  }
+  .el-container:nth-child(5) .el-aside,
+  .el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+  }
+  .el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+  }
 </style>
