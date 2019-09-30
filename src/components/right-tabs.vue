@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <router-link to="/configuration"><p>配置</p></router-link>
+    <router-link to="/"><p>配置</p></router-link>
     <router-link to="/es6"><p>es6</p></router-link>
     <router-link to="/work"><p>工作</p></router-link>
   </div>

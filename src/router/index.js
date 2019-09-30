@@ -15,7 +15,7 @@ export default new Router({
       component: HelloWorld,
       children: [
         {
-          path: 'configuration',
+          path: '',
           component: configuration
         }, {
           path: 'es6',
