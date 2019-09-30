@@ -1,10 +1,10 @@
 <template>
-  <div>es6</div>
+  <div>work</div>
 </template>
 
 <script>
 export default {
-  name: 'es6',
+  name: 'work',
   data () {
     return {}
   }
@@ -12,4 +12,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 </style>

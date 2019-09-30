@@ -1,10 +1,12 @@
 <template>
   <el-container>
-    <el-aside width="200px">
+    <el-aside width="15%">
       <rightTabs />
     </el-aside>
     <el-container>
-      <el-header>我爱我的祖国</el-header>
+      <el-header>
+        我爱我的祖国
+      </el-header>
       <el-main>
         <router-view></router-view>
       </el-main>
@@ -26,10 +28,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.el-container {
-  width: 100%;
-  height: 100%;
-}
+  .el-container {
+    width: 100%;
+    height: 100%;
+  }
   .el-header, .el-footer {
     background-color: #B3C0D1;
     color: #333;

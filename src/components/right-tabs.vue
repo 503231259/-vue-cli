@@ -1,8 +1,8 @@
 <template>
   <div class="box">
-    <p><router-link to="/configuration">配置</router-link></p>
-    <p><router-link to="/1">es6</router-link></p>
-    <p><router-link to="/2">工作</router-link></p>
+    <router-link to="/configuration"><p>配置</p></router-link>
+    <router-link to="/es6"><p>es6</p></router-link>
+    <router-link to="/work"><p>工作</p></router-link>
   </div>
 </template>
 
