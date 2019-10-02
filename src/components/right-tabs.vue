@@ -16,10 +16,7 @@
             <i class="el-icon-location"></i>
             <span>配置</span>
           </template>
-          <el-menu-item index="">选项1</el-menu-item>
-          <el-menu-item index="">选项2</el-menu-item>
-          <el-menu-item index="">选项3</el-menu-item>
-          <el-menu-item index="">选项4</el-menu-item>
+          <el-menu-item index="configuration">搭建3.0脚手架</el-menu-item>
         </el-submenu>
         <el-submenu index="2">
           <template slot="title">
@@ -47,11 +44,5 @@ export default {
 
 <style lang="scss" scoped>
 .box {
-  p {
-    line-height: 50px;
-  }
-  .el-menu-item {
-    padding: 0;
-  }
 }
 </style>
