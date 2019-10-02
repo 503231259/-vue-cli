@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside width="15%">
+    <el-aside width="200px">
       <rightTabs />
     </el-aside>
     <el-container>
