@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/views/HelloWorld'
-import configuration from '@/components/configuration'
-import es6 from '@/components/es6'
+import EstablishVueCli from '@/components/configuration/establish-vue-cli.vue'
+import knowLedge from '@/components/es6/know-ledge.vue'
 import work from '@/components/work'
 
 Vue.use(Router)
@@ -15,11 +15,11 @@ export default new Router({
       component: HelloWorld,
       children: [
         {
-          path: '/configuration',
-          component: configuration
+          path: 'EstablishVueCli',
+          component: EstablishVueCli
         }, {
-          path: 'es6',
-          component: es6
+          path: 'knowledge',
+          component: knowLedge
         }, {
           path: 'work',
           component: work
