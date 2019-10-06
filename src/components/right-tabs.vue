@@ -24,6 +24,7 @@
           <el-menu-item index="knowledge">小知识点</el-menu-item>
           <el-menu-item index="1-2">promise</el-menu-item>
           <el-menu-item index="1-3">generator</el-menu-item>
+          <el-menu-item index="1-3">方法</el-menu-item>
         </el-submenu>
         <el-submenu index="3">
           <template slot="title">
